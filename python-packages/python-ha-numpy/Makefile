@@ -8,11 +8,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=python-ha-numpy
-PKG_VERSION:=1.21.1
-PKG_RELEASE:=$(AUTORELEASE)
+PKG_VERSION:=1.20.2
+PKG_RELEASE:=1
 
 PYPI_NAME:=numpy
-PKG_HASH:=dff4af63638afcc57a3dfb9e4b26d434a7a602d225b42d746ea7fe2edf1342fd
+PKG_HASH:=878922bf5ad7550aa044aa9301d417e2d3ae50f0f577de92051d739ac6096cee
 
 PKG_MAINTAINER:=Lenar Mahmutov <lenz1986@gmail.com>
 

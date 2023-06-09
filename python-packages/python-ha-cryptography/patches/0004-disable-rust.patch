@@ -11,7 +11,8 @@
          """
 @@ -45,7 +45,7 @@ setuptools_rust = "setuptools-rust>=0.11
  install_requirements = ["cffi>=1.12"]
- setup_requirements = install_requirements + [setuptools_rust]
+-setup_requirements = install_requirements + [setuptools_rust]
++setup_requirements = install_requirements
  
 -if os.environ.get("CRYPTOGRAPHY_DONT_BUILD_RUST"):
 +if True:
